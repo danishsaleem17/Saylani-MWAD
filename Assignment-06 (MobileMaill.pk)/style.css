@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+}
+
+.logo h2{
+    font-size: 32px;
+    color: #FFB703;
+    font-weight: 700;
+    letter-spacing: 2px;
+    letter-spacing: 4px;
+}
+
+.logo a{
+    text-decoration: none;
+}
+.logocolor{
+    color: #023047;
+}
+
+.navlinks ul{
+    list-style: none;
+}
+
+.navlinks ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.navlinks ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #023047;
+    text-transform: uppercase;
+}
+
+.navlinks ul li a:hover{
+    color: #FFB703;
+}
+
+.signin{
+    text-decoration: none;
+    background-color: #FFB703;
+    padding: 8px 26px;
+    color: #ffffff;
+    margin: 0px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.signup{
+    text-decoration: none;
+    background-color: #023047;
+    padding: 8px 26px;
+    color: #ffffff;
+    margin: 0px 5px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+
+/* Section One Start */
+
+.section-one{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    gap: 20px;
+}
+
+.container-one{
+    flex: 1;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.container-two{
+    flex: 1;
+    background: url(./Assets/images/smartphone-808994_1920.png);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.container-one h1{
+    font-size: 58px;
+    color: #FFB703;
+    margin-top: 150px;
+}
+
+.container-one h2{
+    color: #023047;
+    margin-top: 20px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.purchase-btn{
+    text-decoration: none;
+    background-color: #023047;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.container-two h2{
+    color: #FFB703;
+}
+
+/* Section One End */
+
+/* Section Two Start */
+
+.section-two{
+    width: 100%;
+    /* height: 50vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.container-three{
+    flex: 1;
+    text-align: center;
+}
+
+.product-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 260px;
+    height: 360px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 8px;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-three h2{
+    font-size: 26px;
+    margin: 15px 0px;
+    color: #023047;
+}
+
+.img-cont{
+    width: 250px;
+    height: 250px;
+}
+
+.content h3{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #FFB703;
+}
+
+.content p{
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.buy-btn{
+    text-decoration: none;
+    background-color: #023047;
+    padding: 6px 16px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+}
+
+/* Section Two End */
+
+/* Section Three Start */
+
+.section-three{
+    width: 100%;
+    /* height: 50vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.container-four{
+    flex: 1;
+    text-align: center;
+}
+
+.container-four h2{
+    font-size: 26px;
+    margin: 15px 0px;
+    color: #023047;
+}
+
+/* Section Three End */
+
+/* Section Four Start */
+
+.section-four{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.container-five{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+
+.brand{
+    width: 300px;
+    height: 180px;
+
+}
+
+.section-four h1{
+    font-size: 40px;
+    color: #023047;
+    margin: 20px 0px;
+}
+
+/* Section Four End */
+
+/* Section Five Start */
+
+.section-five{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+    gap: 30px;
+}
+
+.section-five h2{
+    font-size: 40px;
+    color: #023047;
+    margin: 10px 0px;
+}
+
+.review1{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.review2{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.customer{
+    width: 430px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    border-radius: 10px;
+}
+
+
+.raw1 img{
+    width: 50px;
+    height: 50px;
+    margin: 5px 0px;
+    border-radius: 50%;
+}
+
+.raw1 p{
+    font-size: 12px;
+    font-weight: 700;
+    color: #023047;
+}
+
+.star{
+    font-size: 12px;
+    color: #FFB703;
+}
+
+.raw3 p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    margin:0px 20px;
+}
+
+/* Section Five End */
+
+/* Section Six Star */
+
+.section-six{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #e5e5e5;
+    gap: 30px;
+    /* box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px; */
+    
+}
+
+.container-six{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-six h1{
+    font-size: 40px;
+    margin: 10px 0px;
+}
+
+.container-six input{
+    width: 600px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 10px;
+    border: 0.5px solid #023047;
+}
+
+.contact-btn{
+    text-decoration: none;
+    background-color: #023047;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    margin: 15px 0px;
+}
+
+/* Section Six End */
+
+/* Footer Start */
+
+.footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #023047;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container1{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.footer-container2{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.child1{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer-raw1 h2{
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.facebook, .instagram , .twitter, .whatsapp{
+    font-size: 34px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.footer-raw1{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-raw2{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.child2 ul {
+    list-style: none;
+}
+
+.child2 ul li{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 40px;
+
+}
+
+.child2 ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
